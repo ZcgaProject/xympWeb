@@ -1,0 +1,1418 @@
+.cardDisplayBox{
+    width: 100%;
+    /*height: 100vh;*/
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    /*background-color: aqua;*/
+}
+.posterBigbox_one{
+    width: 100%;
+    height: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*background-color: antiquewhite;*/
+}
+.nameCardBigbox{
+    width: 100%;
+    /*height: 100vh;*/
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    /*background-color: aqua;*/
+}
+.nameCardTitle{
+    width: 100%;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #ffffff;
+}
+.nameCardTitle_head{
+    width: 90%;
+    height: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    /*background-color: firebrick;*/
+}
+.nameCardTitle_head span{
+    font-size: 0.18rem;
+    color: #b3b1b0;
+}
+.nameCardTitle_nav{
+    width: 80%;
+    height: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    /*background-color: goldenrod;*/
+}
+.nameCardTitle_navleft{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    /*background-color: #0570db;*/
+}
+.navleft_img{
+    width: 0.9rem;
+    height: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*background-color: firebrick;*/
+}
+.navleft_font{
+    width: 63%;
+    height: 62%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    font-size: 0.42rem;
+    font-weight: bold;
+    color: #ff0033;
+}
+.navleft_font span{
+    /*margin-top: 0.2rem;*/
+}
+.nameCardTitle_navright{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    /*background-color: #0570db;*/
+}
+.navright_font{
+    width: 70%;
+    height: 55%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    /*background-color: aqua;*/
+}
+.navright_font{
+    font-size: 0.24rem;
+    color: #0b0909;
+}
+.nameCardHeadBox{
+    width: 100%;
+    height: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f1f1f1;
+}
+.nameCardHeadbigBox{
+    width: 100%;
+    height: 5.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #ffffff;
+}
+.headbigBox_title{
+    width: 100%;
+    height: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.3rem;
+    color: #e70505;
+    font-weight: bold;
+    background-color: #e2dfdf;
+}
+.headbigBox_nav{
+    width: 80%;
+    height: 4.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    /*background-color: antiquewhite;*/
+}
+.headbigBox_navleft{
+    width: 50%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    /*background-color: #342e8a;*/
+}
+.headbigBox_navright{
+    width: 35%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*background-color: fuchsia;*/
+}
+.navleftBox{
+    width: 90%;
+    height: 18%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e6e6e6;
+    /*border: 1px solid #6d6c6c;*/
+    box-shadow: 0px -1px 3px rgba(0,0,0,0.8) inset;
+    font-size: 0.24rem;
+    /*text-shadow: 0px 0px 10px #da325a;*/
+    color: #ffff91;
+    text-shadow: 1px 1px 1px lightgray, -1px  -1px 1px  #da325a;
+    font-weight: bold;
+}
+.nameCardFontBox{
+    width: 100%;
+    height: 2rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: #e6e6e6;
+}
+.fontBox{
+    width: 100%;
+    height: 1.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #ffffff;
+}
+.fontBox_one{
+    width: 94%;
+    height: 50%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: row;
+
+}
+.fontBoxOne_one{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.40rem;
+    font-weight: bold;
+    color: #e80f0f;
+}
+.fontBoxOne_two{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    /*background-color: #e70505;*/
+}
+.fontBoxOne_two span{
+    width: 40%;
+    height: 40%;
+    color: #ffffff;
+    font-size: 0.18rem;
+    background-color: #e70505;
+}
+.fontBox_two{
+    width: 80%;
+    height: 50%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: row;
+    font-size: 0.24rem;
+    color: #000000;
+    font-weight: 600;
+}
+.nameCardNavBox{
+    width: 100%;
+    height: 5.5rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: #e6e6e6;
+}
+.navBox{
+    width: 100%;
+    height: 5.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    background-color: #ffffff;
+}
+.navBoxOne{
+    width: 100%;
+    height: 0.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #e70505;
+    font-weight: 900;
+    font-size: 0.28rem;
+    /*background-color: antiquewhite;*/
+}
+.navBoxTwo{
+    width: 100%;
+    height: 3rem;
+    background: url("../../assets/nameCard/111.jpg") center no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #e70505;
+}
+.navBoxTwo_head{
+    width: 80%;
+    height: 0.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 0.24rem;
+    color: rgba(255,255,255,0.3);
+    /*background-color: #342e8a;*/
+}
+.navBoxTwo_nav{
+    width: 80%;
+    height: 1.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    /*background-color: #39a9ed;*/
+}
+.navBoxTwo_navOne{
+    width: 14%;
+    height: 63%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*background-color: aqua;*/
+}
+.navBoxTwo_navTwo{
+    width: 50%;
+    height: 60%;
+    margin-left: 0.2rem;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    line-height: 60px;
+    font-size: 0.42rem;
+    font-weight: bold;
+    background: linear-gradient(to right, #faf9b4, #ffffff);
+    -webkit-background-clip: text;
+    color: transparent;
+    /*background-color: antiquewhite;*/
+}
+.navBoxTwo_navThr{
+    width: 17%;
+    height: 30%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    line-height: 26px;
+    /*background-color: #ada3aa;*/
+    margin-top: 0.2rem;
+    margin-left: 0.1rem;
+    font-size: 0.18rem;
+    color: #e7cd1c;
+    font-style: italic
+}
+.navBoxTwo_footer{
+    width: 80%;
+    height: 0.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    /*background-color: #342e8a;*/
+}
+.navBoxThr{
+    width: 100%;
+    height: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    /*background-color: aqua;*/
+}
+.navBoxThrBox{
+    width: 47%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /*background-color: antiquewhite;*/
+}
+.navBoxThrBoxImg{
+    width: 13%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    /*background-color: rosybrown;*/
+}
+.navBoxThrBoxFont{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+.spanOne{
+    font-size: 0.28rem;
+    font-weight: bold;
+    color: #000000;
+}
+.spanTwo{
+    font-size: 0.26rem;
+    color: #000000;
+}
+.footerBox_box{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 0px;
+    /*background-color: #ada3aa;*/
+}
+.footerBox_boximg{
+    width: 80%;
+    height: 2.28rem;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*background-color: hotpink;*/
+}
+.footerBox_font{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    /*background-color: antiquewhite;*/
+}
+.nameFont{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.38rem;
+    color: #ffffff;
+    /*background-color: #ed6a0c;*/
+}
+.nameImg{
+    width: 28px;
+    height: 28px;
+    border-radius: 5px;
+    font-size: 0.42rem;
+    color: #f9f9f8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #eb9721;
+}
+.nameYear{
+    width: 31%;
+    height: 100%;
+    display: flex;
+    font-size: 0.26rem;
+    color: #ffffff;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 0.1rem;
+    /*background-color: fuchsia;*/
+}
+.nameCardXinxi{
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: #f1f1f1;
+}
+.nameCardXinxiBox{
+    width: 100%;
+    height: 3.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #ffffff;
+}
+.xinxiBox_one{
+    width: 80%;
+    height: 0.9rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    /*background-color: hotpink;*/
+}
+.xinxiBox_oneimg{
+    width: 36%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*background-color: aqua;*/
+}
+.xinxiBox_oneimgBox{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 0.24rem;
+    font-weight: bold;
+    /*color: #000000;*/
+    justify-content: center;
+}
+.xinxiBox_asdimgBox{
+    width: 19%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.xinxiBox_onebtn{
+    width: 26%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    font-size: 0.26rem;
+    color: #f1f1f1;
+    font-weight: bold;
+    background-color: #ed6a0c;
+}
+.xinxiBox_two{
+    width: 100%;
+    height: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url("../../assets/nameCard/head.jpg") center no-repeat;
+    background-size: cover;
+    background-color: antiquewhite;
+}
+.xinxiBox_twoBox{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+.twoBoxOne{
+    width: 18%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*background-color: antiquewhite;*/
+}
+.twoBoxTwo{
+    /*width: 36%;*/
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 0.34rem;
+    color: #ffffff;
+    font-weight: 600;
+}
+.twoBoxThr{
+    width: 46%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 0.28rem;
+    color: #cccccc;
+    font-weight: 600;
+    margin-left: 0.2rem;
+}
+.xinxiBox_thr{
+    width: 80%;
+    height: 1.9rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /*background-color: forestgreen;*/
+}
+.xinxiBox_thrBox{
+    width: 100%;
+    height: 33%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.nameCardZixun{
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: #ffffff;
+}
+.nameCardZixunBox{
+    width: 96%;
+    height: 3.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /*background-color: #ed6a0c;*/
+}
+.zixunBox{
+    width: 100%;
+    height: 0.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    /*background-color: antiquewhite;*/
+}
+.zixunBoxdian{
+    width: 5px;
+    height: 5px;
+    border-radius: 10px;
+    background-color: #ed6a0c;
+}
+.zixunBoxfont{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 0.18rem;
+    color: #000000;
+}
+.nameCardjiazai{
+    font-size: 0.24rem;
+    display: flex;
+    width: 100%;
+    height: 0.8rem;
+    align-items: center;
+    justify-content: center;
+    color: #666666;
+    background-color: #f1f1f1;
+}
+.dianji_thrBox{
+    width: 100%;
+    height: 1.7rem;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: column;
+    /*background-color: #ff976a;*/
+}
+.nameCardDianji_fou{
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    /*background-color: #ff976a;*/
+}
+.dianji_thrBox div{
+    width: 86%;
+    height: 33%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    font-size: 0.26rem;
+    /*font-weight: bold;*/
+    color: #000000;
+}
+
+
+
+
+
+
+
+
+
+.nameCardDianji{
+    width: 100%;
+    /*height: 18rem;*/
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    /*background-color: aquamarine;*/
+}
+.nameCardDianji_one{
+    width: 100%;
+    /*height: 4rem;*/
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    /*background-color: antiquewhite;*/
+}
+.dianji_oneBox{
+    width: 96%;
+    /*height: 4rem;*/
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    /*background-color: hotpink;*/
+}
+.oneBox_ceng{
+    width: 100%;
+    height: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 0.26rem;
+    font-weight: bold;
+    color: #000000;
+    /*background-color: #a7a7a7;*/
+}
+.nameCardZixunBoxtwo{
+    width: 100%;
+    /*height: 3.6rem;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /*background-color: #ed6a0c;*/
+}
+.nameCardDianji_two{
+    width: 100%;
+    height: 5.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f1f1f1;
+
+}
+.dianji_twoBox{
+    width: 100%;
+    height: 5.1rem;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.twoNavBox{
+    width: 96%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /*background-color: hotpink;*/
+}
+.twoNavBox_one{
+    width: 100%;
+    height: 1.2rem;
+    /*background-color: #a7a7a7;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.twoNavBox_oneleft{
+    width: 100%;
+    height: 0.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    /*background-color: antiquewhite;*/
+}
+.oneleftBox{
+    width: 30%;
+    height: 100%;
+    background: url("../../assets/nameCard/head.jpg") center no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*background-color: aquamarine;*/
+}
+.oneleftBoxFont{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.26rem;
+    letter-spacing: 0.03rem;
+    font-weight: 600;
+    color: #ffffff;
+}
+.twoNavBox_oneright{
+    width: 94%;
+    height: 0.6rem;
+    display: flex;
+    font-size: 0.24rem;
+    font-weight: 500;
+    color: #000000;
+    align-items: center;
+    justify-content: flex-start;
+    /*background-color: #ff976a;*/
+}
+.nameCardDianji_thr{
+    width: 100%;
+    height: 3.5rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: #f1f1f1;
+}
+.dianji_thr{
+    width: 100%;
+    height: 3.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    background-color: #ffffff;
+}
+.dianji_fou{
+    width: 96%;
+    height: 2.7rem;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.dianji_fouBox{
+    width: 46%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #cccccc;
+}
+.dianji_fouBoxtop{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aquamarine;
+}
+.dianji_fouBoxbot{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.22rem;
+    color: #000000;
+}
+.nameCardDianji_fiv{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*height: 17rem;*/
+    background-color: #f1f1f1;
+}
+.dianji_fivBox{
+    width: 100%;
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+    /*height: 16.6rem;*/
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    background-color: #ffffff;
+}
+.dianji_fivBoxNav{
+    width: 84%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    /*background-color: antiquewhite;*/
+}
+.fivBoxNav_font{
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+    font-size: 0.26rem;
+    line-height: 0.42rem;
+    color: #000000;
+    text-indent: 0.5rem;
+    text-align: left;
+}
+.nameCardDianji_six{
+    /*margin-top: 0.2rem;*/
+    width: 100%;
+    padding-bottom: 0.2rem;
+    /*height: 10rem;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /*background-color: antiquewhite;*/
+}
+.nameCardDianji_sixBig{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f1f1f1;
+}
+.dianji_sixBox{
+    width:100%;
+    /*height: 9rem;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /*background-color: #ff976a;*/
+}
+.intergrityBox_more{
+    width: 100%;
+    /*height: 14.2rem;*/
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    /*background-color: #f2f2f2;*/
+}
+.rityBox_moreBox{
+    width: 100%;
+    /*height: 14rem;*/
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    background-color: #ffffff;
+}
+.focusBox_footerBox{
+    width: 100%;
+    height: 0.8rem;
+    display: flex;
+    /*margin-bottom: 0.2rem;*/
+    align-items: center;
+    justify-content: center;
+    font-size: 0.24rem;
+    background-color: #ffffff;
+    color: #adadad;
+}
+.focusBox_footertwo{
+    width: 100%;
+    /*height: 1rem;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*flex-direction: column;*/
+    background-color: #f2f2f2;
+}
+.moreBigBox{
+    width: 100%;
+    /*height: 1.7rem;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*flex-direction: column;*/
+    background-color: #ffffff;
+}
+.moreBox{
+    width: 90%;
+    /*height: 1.7rem;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /*background-color: aqua;*/
+}
+.moreBoxTop{
+    width: 100%;
+    height: 0.7rem;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    font-size: 0.18rem;
+    color: #999999;
+    flex-direction: row;
+    /*background-color: antiquewhite;*/
+}
+.moreBoxBot{
+    width: 100%;
+    height: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 0.24rem;
+    color: #000000;
+    font-weight: bold;
+    /*background-color: rosybrown;*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.nameCardfooterImg{
+    width: 100%;
+    height: 2.6rem;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    background-color: #f1f1f1;
+}
+.nameCardFooter{
+    width: 100%;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #e6e6e6;
+}
+.nameCardFooterTop{
+    width: 100%;
+    height: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.footerTop_left{
+    width: 34%;
+    height: 40%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ff701b;
+    font-size: 0.24rem;
+    color: #ffffff;
+}
+.nameCardFooterbottom{
+    width: 100%;
+    height: 0.5rem;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: row;
+    /*background-color: #f1f1f1;*/
+    font-size: 0.18rem;
+    color: #ff0000;
+}
+.footerbottom_img{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    /*background-color: antiquewhite;*/
+}
+.nameCardJzBox{
+    width: 100%;
+    /*height: 22rem;*/
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    /*background-color: aqua;*/
+}
+.nameCardJzBoxOne{
+    width: 100%;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f1f1f1;
+}
+.zixunboxOne{
+    width: 100%;
+    height: 2.1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #ffffff;
+}
+.zixunboxOne_title{
+    width: 80%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    /*background-color: aqua;*/
+    font-size: 0.42rem;
+    font-weight: bold;
+    color: #e70505;
+}
+.zixunboxOne_font{
+    width: 80%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.28rem;
+    font-weight: 600;
+    color: #000000;
+}
+.nameCardJzBoxOneImg{
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: antiquewhite;
+}
+.jzBoxOneImg{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+}
+.nameCardJzBoxTwo{
+    width: 100%;
+    height: 3.1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f1f1f1;
+}
+.zixunboxTwo{
+    width: 100%;
+    height: 2.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #ffffff;
+}
+.zixunboxTwo_title{
+    width: 80%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    /*background-color: aqua;*/
+    font-size: 0.42rem;
+    font-weight: bold;
+    color: #e70505;
+}
+.zixunboxTwo_font{
+    width: 80%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    font-size: 0.28rem;
+    font-weight: 600;
+    text-indent:25px;
+    color: #000000;
+}
+.nameCardJzBoxTwoImg{
+    width: 100%;
+    height: 7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+}
+.jzBoxTwoImg{
+    width: 90%;
+    height: 96%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+}
+.nameCardJzBoxThr{
+    width: 100%;
+    height: 2.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f1f1f1;
+}
+.zixunboxThr{
+    width: 100%;
+    height: 2.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #ffffff;
+}
+.zixunboxThr_title{
+    width: 80%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    /*background-color: aqua;*/
+    font-size: 0.42rem;
+    font-weight: bold;
+    color: #e70505;
+}
+.zixunboxThr_font{
+    width: 80%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 0.28rem;
+    font-weight: 600;
+    color: #000000;
+}
+.nameCardJzBoxFou{
+    width: 100%;
+    height: 7rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    /*background-color: aqua;*/
+}
+.jzBoxFouOne{
+    width: 90%;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.jzBoxFouTwo{
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.jzBoxFouOneImg{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nameCardJzBoxFiv{
+    width: 100%;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*background-color: antiquewhite;*/
+}
+.jzBoxFivImg{
+    width: 50%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nameCardJzBoxSex{
+    width: 100%;
+    height: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*background-color: aqua;*/
+}
+.jzBoxSex{
+    width: 35%;
+    height: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ff701b;
+    border-radius: 10px;
+    font-size: 0.30rem;
+    color: #ffffff;
+}
+.jzBoxSexfont{
+    width: 100%;
+    height: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #f1f1f1;
+}
+.jzBoxSexfont_one{
+    width: 100%;
+    height: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 0.32rem;
+    color: #726e6e;
+    text-decoration: underline;
+    background-color: #ffffff;
+}
+.nameCardFooterBox{
+    width: 100%;
+    height: 1.2rem;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    background-color: #e6e6e6;
+}
+.popupFxiang{
+    width: 7rem;
+    height: 7rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    box-shadow:0px 0px 10px 3px rgba(133,133,133,0.8) inset;
+    background-color: #ffffff;
+}
+.popupTitle{
+    width: 90%;
+    height: 1rem;
+    /*background-color: aquamarine;*/
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+.titleImg{
+    width: 15%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*background-color: #2483d5;*/
+}
+.popupFont{
+    margin-left: 0.2rem;
+    font-size: 0.38rem;
+    letter-spacing: 0.1rem;
+    color: #666666;
+}
+.popupFonttwo{
+    margin-left: 0.2rem;
+    font-size: 0.18rem;
+    letter-spacing: 0.1rem;
+    color: #ee0a24;
+}
+.popupHead{
+    width: 90%;
+    height: 1.2rem;
+    /*background-color: #ee0a24;*/
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 0.38rem;
+    color: #000000;
+}
+.popupNav{
+    width: 90%;
+    height: 3.3rem;
+    background: url("../../assets/nameCard/111.jpg") center no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /*background-color: #a7a7a7;*/
+}
+.popupNav_top{
+    width: 94%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    /*background-color: antiquewhite;*/
+}
+.popupNav_bot{
+    width: 94%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /*background-color: aquamarine;*/
+}
+.left_top{
+    width: 30%;
+    height: 88%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*background-color: #a7a7a7;*/
+}
+.right_top{
+    width: 55%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    /*background-color: teal;*/
+}
+.botNavBox{
+    width: 90%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 0.26rem;
+    color: #ffffff;
+}
+.popupFooter{
+    width: 100%;
+    height: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*background-color: antiquewhite;*/
+}
+.popupFooter_btn{
+    width: 50%;
+    height: 50%;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.32rem;
+    letter-spacing: 0.1rem;
+    color: #ffffff;
+    background-color: #f67524;
+}

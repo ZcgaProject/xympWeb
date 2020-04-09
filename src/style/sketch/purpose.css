@@ -1,0 +1,205 @@
+.whatThisBox{
+    width: 100%;
+    /*height: 100vh;*/
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    background-color: #ffffff;
+}
+.whatThisBoxOne{
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /*background-color: aqua;*/
+}
+.whatThisBoxOne_img{
+    width: 21%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*background-color: goldenrod;*/
+}
+.whatThisBoxOne_font{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.whatThisBoxOne_font span{
+    font-size: 0.42rem;
+    font-weight: 500;
+    letter-spacing: 0.2rem;
+    text-align: center;
+    color: #df0303;
+}
+.purposeTwo{
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e6e6e6;
+}
+.purposeTwoBox{
+    width: 100%;
+    height: 88%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    background-color: #ffffff;
+}
+.purposeTwoBox_title{
+    width: 80%;
+    height: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    /*background-color: aqua;*/
+}
+.purposeTwoBox_title span{
+    font-size: 0.30rem;
+    font-weight: bold;
+    color: #ee0e0e;
+}
+.purposeTwoBox_font{
+    width: 80%;
+    height: 12%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    /*background-color: goldenrod;*/
+}
+.purposeTwoBox_font span{
+    font-size: 0.24rem;
+    color: #554e4e;
+}
+.purposeTwoBox_imgBox{
+    width: 60%;
+    height: 63%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    /*background-color: aqua;*/
+}
+.imgBox_img{
+    width: 40%;
+    height: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*background-color: #0570db;*/
+}
+.imgBox_font{
+    width: 50%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 0.32rem;
+    color: #000000;
+    font-weight: bold;
+    /*background-color: goldenrod;*/
+}
+.purposeThr{
+    width: 100%;
+    /*height: 12rem;*/
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    /*background-color: #0570db;*/
+}
+.purposeThr_font{
+    width: 70%;
+    height: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: #000000;
+    font-size: 0.28rem;
+    font-weight: bold;
+    background-color: #ffffff;
+}
+.purposeThr_one{
+    width: 90%;
+    height: 2.2rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    /*background-color: aqua;*/
+}
+.purposeThr_oneImg{
+    width: 100%;
+    height: 1.9rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*background-color: #0570db;*/
+}
+.purposeThr_two{
+    width: 90%;
+    height: 3.3rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    /*background-color: aqua;*/
+}
+.purposeThr_twoImg{
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.purposeThr_thr{
+    width: 90%;
+    height: 3.3rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    /*background-color: aqua;*/
+}
+.purposeThr_thrImg{
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footerPurpose{
+    width: 100%;
+    height: 1.8rem;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    background-color: #e6e6e6;
+}
+.footerPurposebox{
+    width: 100%;
+    height: 1.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+}
+.footerPurpose_btn{
+    width: 38%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    background-color: #f67524;
+    font-size: 0.24rem;
+    color: #f9f6f5;
+    letter-spacing: 0.1rem;
+    font-weight: bold;
+}

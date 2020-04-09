@@ -1,0 +1,229 @@
+.loginBigBox{
+    width: 100%;
+    height: 100vh;
+    background: url("../../assets/login/bg.png") no-repeat center;
+    background-size: 100% 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.loginNavBox{
+    width: 100%;
+    height: 82%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    /*background-color: #726e6e;*/
+    /*opacity: 0.5;*/
+}
+.loginFoterBox{
+    width: 100%;
+    height: 18%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.loginFoterBox_font{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    font-size: 0.42rem;
+    font-weight: bold;
+    color: #ffff97;
+    text-shadow:#d93b5f 1px 0 0,#d93b5f 0 1px 0,#d93b5f -1px 0 0,#d93b5f 0 -1px 0;
+    -webkit-text-shadow:#d93b5f 1px 0 0,#d93b5f 0 1px 0,#d93b5f -1px 0 0,#d93b5f 0 -1px 0;
+    -moz-text-shadow:#d93b5f 1px 0 0,#d93b5f 0 1px 0,#d93b5f -1px 0 0,#d93b5f 0 -1px 0;
+}
+.loginNavBox_head{
+    width: 100%;
+    height: 1rem;
+    /*background-color: #726e6e;*/
+    font-size: 0.26rem;
+    color: #ada3aa;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.loginNavBox_logo{
+    width: 100%;
+    height: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    /*background-color: aqua;*/
+}
+.logoimg{
+    width: 13%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*background-color: darkorange;*/
+}
+.logofont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logofont span{
+    margin-top: 0.2rem;
+    font-size: 0.38rem;
+    color: #ffffff;
+}
+.loginNavBox_nav{
+    width: 82%;
+    height: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /*background-color: aqua;*/
+}
+.navHeadBox{
+    width: 100%;
+    height: 20%;
+    /*background-color: #5951c1;*/
+    background: rgba(89,81,193,0.5);
+}
+.navHeadBox_top{
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-top-color: #383279;
+    border-left-color: #383279;
+    border-right-color: #383279;
+    border-style:solid;
+    border-width:1px;
+    box-shadow: 0px 0px 5px inset rgba(255, 255, 255, 0.9);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.36rem;
+    letter-spacing: 0.01rem;
+    /*color: #edeef5;*/
+}
+.navHeadBox_bottom{
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-color: #383279;
+    border-left-color: #383279;
+    border-right-color: #383279;
+    border-style:solid;
+    border-width:1px;
+    box-shadow: 0px 0px 5px inset rgba(255, 255, 255, 0.9);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.32rem;
+    letter-spacing: 0.01rem;
+    /*color: #edeef5;*/
+    /*text-decoration: underline;*/
+}
+.navBox{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    flex-direction: column;
+    background-color: #342e8a;
+}
+.navBox_oneBox{
+    width: 100%;
+    height: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    /*background-color: aqua;*/
+}
+.navBox_twoBox{
+    width: 100%;
+    height: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    /*background-color: aqua;*/
+}
+.navBox_thrBox{
+    width: 70%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    /*background-color: aqua;*/
+}
+.thrBox_oneBox{
+    width: 30%;
+    height: 80%;
+    background-color: #f67524;
+    border-radius: 10px;
+    box-shadow: 0px 0px 7px rgba(255, 255, 255, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.26rem;
+    letter-spacing: 0.02rem;
+    color: #ffffff;
+    font-weight: 500;
+}
+.oneBox_font{
+     width: 30%;
+     height: 100%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     font-size: 0.32rem;
+     color: #ffffff;
+     font-weight: bold;
+    /*background-color: #cac9c9;*/
+ }
+.oneBox_input{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*background-color: darkorange;*/
+}
+.twoBox_font{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.32rem;
+    color: #ffffff;
+    font-weight: bold;
+}
+.twoBox_input{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.inputBox{
+    width: 90%;
+    height: 80%;
+    background:#ffffff;
+    outline:none;
+    border:none;
+    font-size: 0.3rem;
+    border-radius: 3px;
+}
+.navBox_big{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}

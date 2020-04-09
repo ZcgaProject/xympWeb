@@ -1,0 +1,281 @@
+.creditBigBox{
+    width: 100%;
+    /*height: 100vh;*/
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    /*background-color: aqua;*/
+}
+.posterBigbox_one{
+    width: 100%;
+    height: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*background-color: antiquewhite;*/
+}
+.nameCardTitle_head{
+    width: 90%;
+    height: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    /*background-color: firebrick;*/
+}
+.nameCardTitle_head span{
+    font-size: 0.18rem;
+    color: #b3b1b0;
+}
+.posterBigbox_two{
+    width: 100%;
+    /*height: 3rem;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ff0033;
+}
+.bigbox_twoBox{
+    width: 100%;
+    height: 2.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    /*background-color: #ff0033;*/
+}
+.twoBox_left{
+    width: 45%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /*background-color: #ed6a0c;*/
+}
+.twoBox_nav{
+    width: 30%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /*background-color: #39a9ed;*/
+}
+.twoBox_right{
+    width: 25%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    /*background-color: #ffffff;*/
+}
+.leftbox{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    /*background-color: antiquewhite;*/
+}
+.rightfont{
+    font-size: 0.26rem;
+    color: #ffffff;
+    font-weight: 700;
+}
+.creditHeadBox{
+    width: 100%;
+    height: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow:0px 0px 10px 3px rgba(255,255,255,0.6);
+    background-color: #ffffff;
+}
+.creditHeadBox span{
+    font-size: 0.28rem;
+    color: #000000;
+}
+.ceaditTitleBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    background-color: #ffffff;
+    width: 100%;
+    height: 1rem;
+    border-bottom: 1px solid #f1f1f1;
+    border-top: 1px solid #f1f1f1;
+}
+.titleBox_left{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 50%;
+    height: 90%;
+    flex-direction: row;
+    /*background-color: #ee0a24;*/
+}
+.titleBox_right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    height: 90%;
+    /*background-color: #ff976a;*/
+}
+.leftImg{
+    width: 22%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*background-color: aquamarine;*/
+}
+.leftFont{
+    margin-left: 0.3rem;
+    font-size: 0.28rem;
+    font-weight: bold;
+    color: #000000;
+}
+.titleBox_right{
+    font-size: 0.28rem;
+    font-weight: bold;
+    color: #000000;
+}
+.ceaditNavBox{
+    width: 100%;
+    height: 1.9rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    background-color: #ffffff;
+    border-bottom: 1px solid #8a8a8a;
+}
+.ceaditnavBigBox{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    /*background-color: aquamarine;*/
+}
+.ceaditnavTop{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    /*background-color: #2483d5;*/
+}
+.ceaditnavBot{
+    width: 100%;
+    height: 35%;
+    font-size: 0.28rem;
+    color: #000000;
+    font-weight: 400;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    /*background-color: #f1f1f1;*/
+}
+.creditfootBox{
+    width: 100%;
+    height: 3.1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    border-bottom: 1px solid #a7a7a7;
+    background-color: #ffffff;
+}
+.footFontBox{
+    width: 100%;
+    height: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: row;
+    /*background-color: #2483d5;*/
+}
+.footFont_left{
+    width: 55%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    /*background-color: #f1f1f1;*/
+}
+.footFont_right{
+    width: 40%;
+    height: 100%;
+    font-weight: 400;
+    font-size: 0.30rem;
+    color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*background-color: #b22222;*/
+}
+.fontImg{
+    width: 20%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*background-color: aquamarine;*/
+}
+.fontBoxLeft{
+    margin-left: 0.2rem;
+    font-weight: 400;
+    font-size: 0.30rem;
+    color: #000000;
+}
+.creditLineBox{
+    width: 100%;
+    height: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #a7a7a7;
+    background-color: #ffffff;
+}
+.creditLine{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    /*background-color: #2483d5;*/
+    /*margin-left: 0.3rem;*/
+}
+.creditLineImg{
+    width: 13%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*background-color: #ee0a24;*/
+}
+.creditfooterBox{
+    width: 100%;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    /*border-bottom: 1px solid #a7a7a7;*/
+    border-top: 1px solid #a7a7a7;
+    background-color: #ffffff;
+}
+.creditfooterBox span{
+    font-size: 0.28rem;
+    color: #ee0a24;
+    text-decoration:underline ;
+}

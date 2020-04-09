@@ -1,0 +1,198 @@
+.registerBigBox{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /*background-color: #cac9c9;*/
+}
+.headBigBox{
+    width: 100%;
+    height: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    /*background-color: aqua;*/
+}
+.headBigBox span{
+    font-size: 0.26rem;
+    color: #ada3aa;
+}
+.topLoguBox{
+    width: 90%;
+    height: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    /*background-color: darkorange;*/
+}
+.topFontBox{
+    width: 100%;
+    height: 1.2rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    font-size: 0.42rem;
+    font-weight: bold;
+    color: #ffff97;
+    text-shadow:#d93b5f 1px 0 0,#d93b5f 0 1px 0,#d93b5f -1px 0 0,#d93b5f 0 -1px 0;
+    -webkit-text-shadow:#d93b5f 1px 0 0,#d93b5f 0 1px 0,#d93b5f -1px 0 0,#d93b5f 0 -1px 0;
+    -moz-text-shadow:#d93b5f 1px 0 0,#d93b5f 0 1px 0,#d93b5f -1px 0 0,#d93b5f 0 -1px 0;
+}
+.topLoguBox_img{
+    width: 13%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*background-color: thistle;*/
+}
+.topLoguBox_font{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.topLoguBox_font span{
+    margin-top: 0.2rem;
+    font-size: 0.38rem;
+    color: #df0303;
+}
+.navBigBOX{
+    width: 100%;
+    height: 56%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /*background-color: azure;*/
+}
+.footerBoxBox{
+    width: 100%;
+    height: 19%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    background-color: #e6e6e6;
+}
+.imgBox{
+    width: 25%;
+    height: 100%;
+    /*background-color: #f1f1f1;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navBigBOX_top{
+    width: 80%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    /*background-color: darkorange;*/
+}
+.navBigBOX_topImg{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*background-color: darkblue;*/
+}
+.navBigBOX_topFont{
+    font-size: 0.36rem;
+    color: #8d8d8d;
+}
+.navBigBOX_head{
+    width: 80%;
+    height: 55%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    /*background-color: aqua;*/
+}
+.navBigBOX_footer{
+    width: 80%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    /*background-color: gold;*/
+    font-size: 0.32rem;
+    color: #c7c7c7;
+}
+.navBigBOX_btn{
+    width: 80%;
+    height: 15%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    /*background-color: yellowgreen;*/
+}
+.navBigBOX_btnBox{
+    width: 50%;
+    height: 70%;
+    font-size: 0.3rem;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f7a22f;
+}
+.navBigBOX_headBox{
+    width: 100%;
+    height: 23%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+}
+.navBigBOX_headBoxleter{
+    width: 100%;
+    height: 23%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    background-color: #ffffff;
+}
+.headBoxleter_box{
+    width:40%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*background-color: yellowgreen;*/
+}
+.headBoxleter_font{
+    width: 40%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.32rem;
+    background-color: #e6e6e6;
+}
+.inputBoxletter{
+    width: 100%;
+    height: 100%;
+    background:#ffffff;
+    outline:none;
+    font-size: 0.3rem;
+    border-radius: 3px;
+    border: 1px solid #c7c7c7;
+}
+.inputBox{
+    width: 90%;
+    height: 80%;
+    background:#ffffff;
+    outline:none;
+    font-size: 0.3rem;
+    border-radius: 3px;
+    border: 1px solid #c7c7c7;
+}

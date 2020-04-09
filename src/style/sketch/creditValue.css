@@ -1,0 +1,202 @@
+.creditValue{
+    width: 100%;
+    /*height: 100vh;*/
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    background-color: #ffffff;
+}
+.whatThisBoxOne{
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /*background-color: aqua;*/
+}
+.whatThisBoxOne_img{
+    width: 21%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*background-color: goldenrod;*/
+}
+.whatThisBoxOne_font{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.whatThisBoxOne_font span{
+    font-size: 0.42rem;
+    font-weight: 500;
+    letter-spacing: 0.2rem;
+    text-align: center;
+    color: #df0303;
+}
+.creditValueTwo{
+    width: 100%;
+    height: 4.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e6e6e6;
+}
+.creditValueTwo_one{
+    width: 100%;
+    height: 3.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    flex-direction: column;
+}
+.creditValueTwo_title{
+    width: 80%;
+    height: 1rem;
+    /*background-color: #0570db;*/
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 0.32rem;
+    color: #e70505;
+    font-weight: bold;
+}
+.creditValueTwo_font{
+    width: 80%;
+    height: 1.2rem;
+    /*background-color: goldenrod;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.creditValueTwo_font span{
+    text-indent:20px;
+    text-align: left;
+    font-size: 0.24rem;
+    color: #170d0d;
+}
+.creditValueTwo_footer{
+    width: 80%;
+    height: 1.6rem;
+    /*background-color: aqua;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.footercredImg{
+    width: 25%;
+    height: 87%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*background-color: #e70505;*/
+}
+.footercredFont{
+    width: 40%;
+    height: 50%;
+    font-size: 0.32rem;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    color: #000000;
+}
+.creditValueThr{
+    width: 100%;
+    height: 7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /*background-color: antiquewhite;*/
+}
+.creditValueThr_title{
+    width: 80%;
+    height: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 0.32rem;
+    color: #e70505;
+    font-weight: bold;
+    /*background-color: aqua;*/
+}
+.creditValueThr_img{
+    width: 90%;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*background-color: #e70505;*/
+}
+.creditValueFou{
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e6e6e6;
+}
+.creditValueFoubox{
+    width: 100%;
+    height: 3.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    background-color: #ffffff;
+}
+.creditValueFou_title{
+    width: 80%;
+    height: 1rem;
+    /*background-color: #0570db;*/
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 0.32rem;
+    color: #e70505;
+    font-weight: bold;
+    /*background-color: thistle;*/
+}
+.creditValueFou_img{
+    width: 90%;
+    height: 2.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*background-color: aqua;*/
+}
+.footerPurpose{
+    width: 100%;
+    /*height: 1.8rem;*/
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    background-color: #e6e6e6;
+}
+.footerPurposebox{
+    width: 100%;
+    height: 1.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+}
+.footerPurpose_btn{
+    width: 38%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    background-color: #f67524;
+    font-size: 0.24rem;
+    color: #f9f6f5;
+    letter-spacing: 0.1rem;
+    font-weight: bold;
+}

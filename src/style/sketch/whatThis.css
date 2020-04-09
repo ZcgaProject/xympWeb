@@ -1,0 +1,96 @@
+.whatThisBox{
+    width: 100%;
+    /*height: 100vh;*/
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    background-color: #ffffff;
+}
+.whatThisBoxOne{
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /*background-color: aqua;*/
+}
+.whatThisBoxOne_img{
+    width: 21%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*background-color: goldenrod;*/
+}
+.whatThisBoxOne_font{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.whatThisBoxOne_font span{
+    font-size: 0.42rem;
+    font-weight: 500;
+    letter-spacing: 0.2rem;
+    text-align: center;
+    color: #df0303;
+}
+.whatThisBoxTwo{
+    width: 100%;
+    height: 3.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e6e6e6;
+}
+.whatThisBoxTwo_img{
+    width: 100%;
+    height: 84%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+}
+.whatThisBoxThr{
+    width: 100%;
+    height: 3.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #e6e6e6;
+}
+.whatThisBoxThr_img{
+    width: 100%;
+    height: 3.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+}
+.whatThisBoxFou{
+    width: 100%;
+    height: 1.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    /*background-color: red;*/
+}
+.whatThisBoxFou_font{
+    width: 36%;
+    height: 40%;
+    border-radius: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f67524;
+}
+.whatThisBoxFou_font span{
+    font-size: 0.24rem;
+    color: #f9f6f5;
+    letter-spacing: 0.1rem;
+    font-weight: bold;
+}

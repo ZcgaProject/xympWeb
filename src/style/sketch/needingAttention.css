@@ -1,0 +1,211 @@
+.needingBox{
+    width: 100%;
+    /*height: 100vh;*/
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    background-color: #ffffff;
+}
+.whatThisBoxOne{
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /*background-color: aqua;*/
+}
+.whatThisBoxOne_img{
+    width: 21%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*background-color: goldenrod;*/
+}
+.whatThisBoxOne_font{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.whatThisBoxOne_font span{
+    font-size: 0.38rem;
+    font-weight: 500;
+    /*letter-spacing: 0.2rem;*/
+    text-align: center;
+    color: #df0303;
+}
+.needingBoxTitle{
+    width: 100%;
+    height: 9.6rem;
+    background-color: #e6e6e6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.needingBoxTitleBox{
+    width: 100%;
+    height: 9.2rem;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.titleBox_font{
+    width: 80%;
+    height: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 0.30rem;
+    font-weight: bold;
+    color: #e70505;
+    /*background-color: antiquewhite;*/
+}
+.titleBox_imgOne{
+    width: 90%;
+    height: 4.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*background-color: goldenrod;*/
+}
+.titleBox_imgTwo{
+    width: 90%;
+    height: 3.3rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    /*background-color: fuchsia;*/
+}
+.needingBoxNavone{
+    width: 100%;
+    height: 14.6rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: #e6e6e6;
+}
+.needingBoxNavBox{
+    width: 100%;
+    height: 14.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #ffffff;
+}
+.needingBoxNavoneFont{
+    width: 80%;
+    height: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 0.30rem;
+    font-weight: bold;
+    color: #e70505;
+}
+.needingBoxNavone_nav{
+    width: 90%;
+    height: 13.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.needing_navOne{
+    width: 100%;
+    height: 4.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*background-color: aqua;*/
+}
+.needing_navTwo{
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*background-color: goldenrod;*/
+}
+.needing_navThr{
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*background-color: fuchsia;*/
+}
+.needing_navFou{
+    width: 100%;
+    height: 2.3rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    /*background-color: thistle;*/
+}
+.needingBoxNavtwo{
+    width: 100%;
+    height: 9rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e6e6e6;
+}
+.needingBoxNavtwoBox{
+    width: 100%;
+    height: 8.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #ffffff;
+}
+.needingBoxNavtwo_title{
+    width: 80%;
+    height: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 0.30rem;
+    font-weight: bold;
+    color: #e70505;
+}
+.needingBoxNavtwo_imgBox{
+    width: 90%;
+    height: 7.4rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    /*background-color: antiquewhite;*/
+}
+.whatThisBoxFou{
+    width: 100%;
+    height: 1.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    /*background-color: red;*/
+}
+.whatThisBoxFou_font{
+    width: 36%;
+    height: 40%;
+    border-radius: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f67524;
+}
+.whatThisBoxFou_font span{
+    font-size: 0.24rem;
+    color: #f9f6f5;
+    letter-spacing: 0.1rem;
+    font-weight: bold;
+}
+
