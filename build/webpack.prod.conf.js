@@ -64,6 +64,7 @@ const webpackConfig = merge(baseWebpackConfig, {
       filename: config.build.index,
       template: 'index.html',
       inject: true,
+      favicon: path.resolve('logozctwo.png'), // 引入图片地址
       minify: {
         removeComments: true,
         collapseWhitespace: true,
