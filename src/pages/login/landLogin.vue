@@ -194,7 +194,7 @@
                 console.log('点击了++',param)
                 if(param === 'gwang'){
                     console.log('点击了')
-                    location.href = 'http://www.zcga.cn/#/PrincipalSheet'
+                    location.href = 'http://www.cxzgxy.com/#/PrincipalSheet'
                 }
             },
             denglu(){

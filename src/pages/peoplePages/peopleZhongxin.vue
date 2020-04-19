@@ -161,7 +161,7 @@
                 this.$router.push({name: 'LoadLogin'})
             },
             guanWang(){
-                location.href = 'http://www.zcga.cn/#/PrincipalSheet'
+                location.href = 'http://www.cxzgxy.com/#/PrincipalSheet'
             }
         }
     }

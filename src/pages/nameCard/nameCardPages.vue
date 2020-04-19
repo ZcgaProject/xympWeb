@@ -326,7 +326,7 @@
                 console.log('点击分享')
             },
             guanwang(){
-                location.href = 'http://www.zcga.cn/#/PrincipalSheet'
+                location.href = 'http://www.cxzgxy.com/#/PrincipalSheet'
             }
         }
     }

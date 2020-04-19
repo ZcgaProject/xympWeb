@@ -126,7 +126,7 @@
                 console.log('点击了诚信中国')
             },
             guanwang(){
-                location.href = 'http://www.zcga.cn/#/PrincipalSheet'
+                location.href = 'http://www.cxzgxy.com/#/PrincipalSheet'
             }
         }
     }
