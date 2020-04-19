@@ -122,7 +122,7 @@
                 this.$router.push({name: 'LoadLogin'})
             },
             goChina(){
-                // this.$router.push({name: 'IntegrityPage'})
+                location.href = "http://www.cctvxy.com/#/integrityPage"
                 console.log('点击了诚信中国')
             },
             guanwang(){
