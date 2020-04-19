@@ -4,7 +4,7 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 import 'vant/lib/index.css'
-import { Checkbox, CheckboxGroup, Toast, Search, Swipe, SwipeItem,DropdownMenu, DropdownItem,Loading,Popup} from 'vant';
+import { Checkbox, CheckboxGroup, Toast, Search, Swipe, SwipeItem,DropdownMenu, DropdownItem,Loading,Popup,Tabbar, TabbarItem} from 'vant';
 import VideoPlayer from 'vue-video-player'
 
 require('video.js/dist/video-js.css')
@@ -14,6 +14,8 @@ Vue.use(VideoPlayer)
 
 Vue.use(Checkbox);
 Vue.use(CheckboxGroup);
+Vue.use(Tabbar);
+Vue.use(TabbarItem);
 
 Vue.config.productionTip = false
 Vue.use(Checkbox).use(CheckboxGroup).use(Toast).use(Loading).use(Search).use(Swipe).use(SwipeItem).use(DropdownMenu).use(DropdownItem)
