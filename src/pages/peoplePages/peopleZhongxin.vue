@@ -30,17 +30,35 @@
                     <img style="width: 86%;height: 94%;" src="../../assets/poster/1.jpg" alt="">
                 </div>
                 <div class="twoBox_right">
-                    <span class="rightfont">信积分</span>
-                    <span class="rightfont">1000</span>
-                    <span style="width: 50%;height: 25%;background-color: #ff0033;border: 1px solid #ffffff;border-radius: 10px;" class="rightfont">兑换</span>
+                    <!--<span class="rightfont">信积分</span>-->
+                    <!--<span class="rightfont">1000</span>-->
+                    <!--<span style="width: 50%;height: 25%;background-color: #ff0033;border: 1px solid #ffffff;border-radius: 10px;" class="rightfont">兑换</span>-->
+                    <span class="rightfont">邀请好友赚积分</span>
                 </div>
+            </div>
+            <div class="bottom_fontbox">
+                <div class="bottomfontbox_left">
+                    <span style="font-size: 0.42rem;font-weight: bold">2000.00</span>
+                    <span style="font-size: 0.36rem;font-weight: 500">元&#160;(现金余额)</span>
+                </div>
+                <div class="bottomfontbox_nav">提现</div>
+                <div class="bottomfontbox_nav">充值</div>
+            </div>
+            <div class="bottom_fontbox">
+                <div class="bottomfontbox_left">
+                    <span style="font-size: 0.42rem;font-weight: bold">1000&#160;</span>
+                    <img style="width: 27px;height: 27px" src="../../assets/carddis/xinyong.png" alt="">
+                    <span style="font-size: 0.36rem;font-weight: 500">&#160;(信积分)</span>
+                </div>
+                <div class="bottomfontbox_nav">购物</div>
+                <div class="bottomfontbox_nav">赚积分</div>
             </div>
         </div>
         <div class="creditHeadBox">
             <span>我的名片</span>
             <span>我的课程</span>
             <span>卖家中心</span>
-            <span>赚积分</span>
+            <span>媒体中心</span>
         </div>
         <div class="ceaditTitleBox">
             <div class="titleBox_left">
@@ -54,31 +72,31 @@
         <div class="ceaditNavBox">
             <div class="ceaditnavBigBox">
                 <div class="ceaditnavTop">
-                    <img style="width: 42%;height: 68%" src="../../assets/peoplePages/4.png" alt="">
+                    <img style="width: 42%;height: 62%" src="../../assets/peoplePages/4.png" alt="">
                 </div>
                 <div class="ceaditnavBot">待付款</div>
             </div>
             <div class="ceaditnavBigBox">
                 <div class="ceaditnavTop">
-                    <img style="width: 51%;height: 66%" src="../../assets/peoplePages/5.png" alt="">
+                    <img style="width: 51%;height: 62%" src="../../assets/peoplePages/5.png" alt="">
                 </div>
                 <div class="ceaditnavBot">待发货</div>
             </div>
             <div class="ceaditnavBigBox">
                 <div class="ceaditnavTop">
-                    <img style="width: 51%;height: 66%" src="../../assets/peoplePages/6.png" alt="">
+                    <img style="width: 51%;height: 62%" src="../../assets/peoplePages/6.png" alt="">
                 </div>
                 <div class="ceaditnavBot">待收货</div>
             </div>
             <div class="ceaditnavBigBox">
                 <div class="ceaditnavTop">
-                    <img style="width: 39%;height: 61%" src="../../assets/peoplePages/7.png" alt="">
+                    <img style="width: 39%;height: 59%" src="../../assets/peoplePages/7.png" alt="">
                 </div>
                 <div class="ceaditnavBot">退换货</div>
             </div>
             <div class="ceaditnavBigBox">
                 <div class="ceaditnavTop">
-                    <img style="width: 42%;height: 68%" src="../../assets/peoplePages/8.png" alt="">
+                    <img style="width: 42%;height: 62%" src="../../assets/peoplePages/8.png" alt="">
                 </div>
                 <div class="ceaditnavBot">消息</div>
             </div>
@@ -141,6 +159,19 @@
             <span @click="guanWang">中创国安官网</span>
             <span>易信学院</span>
         </div>
+        <div class="footerTabertwo"></div>
+        <div class="footerTaber"  v-show="hideshow" >
+            <van-tabbar style="height:1rem;" v-model="active" :fixed="false" :placeholder="true">
+                <van-tabbar-item icon="home-o" v-for="(item,index) in tabbars"
+                                 :key="index"
+                                 @click="tab(index,item.name)">
+                    <span :class="currIndex == index ? active:''">{{item.title}}</span>
+                    <template slot="icon" slot-scope="props">
+                        <img :src="props.active ? item.active : item.normal">
+                    </template>
+                </van-tabbar-item>
+            </van-tabbar>
+        </div>
     </div>
 </template>
 
@@ -149,7 +180,44 @@
         name: "peopleZhongxin",
         data() {
             return {
+                docmHeight: document.documentElement.clientHeight,  //默认屏幕高度
+                showHeight: document.documentElement.clientHeight,   //实时屏幕高度
+                hideshow:true,  //显示或者隐藏footer
+                currIndex: 0,
+                active: 4,
+                tabbars: [
+                    {
+                        name: "PeoplePages",
+                        title: "易商城",
+                        normal: require("../../assets/cityHome/yinsc.png"),
+                        active: require("../../assets/cityHome/yinsc.png")
+                    },
+                    {
+                        name: "PeoplePages",
+                        title: "信商城",
+                        normal: require("../../assets/cityHome/xinsc.png"),
+                        active: require("../../assets/cityHome/xinsc.png")
+                    },
+                    {
+                        name: "PeoplePages",
+                        title: "分类",
+                        normal: require("../../assets/cityHome/fenlei.png"),
+                        active: require("../../assets/cityHome/fenleiClick.png")
+                    },
+                    {
+                        name: "PeoplePages",
+                        title: "购物车",
+                        normal: require("../../assets/cityHome/shop.png"),
+                        active: require("../../assets/cityHome/shopClick.png")
+                    },
 
+                    {
+                        name: "PeoplePages",
+                        title: "我的",
+                        normal: require("../../assets/cityHome/my.png"),
+                        active: require("../../assets/cityHome/myClick.png")
+                    }
+                ]
             }
         },
         created() {},
@@ -162,11 +230,42 @@
             },
             guanWang(){
                 location.href = 'http://www.cxzgxy.com/#/PrincipalSheet'
+            },
+            tab(index, val) {
+                this.currIndex = index;
+                // this.$router.push(val);
             }
         }
     }
 </script>
 <style src="../../style/creditCenter/creditPage.css" scoped></style>
-<style scoped>
-
+<style>
+    .van-search--show-action{
+        width: 100% !important;
+        height: 100% !important;
+    }
+    .van-search{
+        background-color: #ffffff !important;
+    }
+    .van-dropdown-menu{
+        height: 10px !important;
+    }
+    .van-search__action{
+        font-size: 12px !important;
+    }
+    .van-tabbar{
+        z-index: -1 !important;
+    }
+    .van-tabbar-item--active{
+        color: #ff341a !important;
+    }
+    .van-tabbar-item__icon img{
+        height: 22px !important;
+    }
+    .van-tabbar-item{
+        font-size: 13px !important;
+    }
+    .van-tabbar-item__icon{
+        margin-bottom: 8px !important;
+    }
 </style>
