@@ -84,7 +84,7 @@
                     <span>投诉热线：400-838-5198</span>
                 </div>
                 <div class="footerBox_two">
-                    <span @click="beianhao">琼ICP备19004493</span>
+                    <span @click="beianhao">ICP备案号：琼ICP备19004493号-1</span>
                 </div>
             </div>
         </div>
