@@ -83,6 +83,9 @@
                     <span>版权所有：国安信用</span>
                     <span>投诉热线：400-838-5198</span>
                 </div>
+                <div class="footerBox_two">
+                    <span @click="beianhao">琼ICP备19004493</span>
+                </div>
             </div>
         </div>
     </div>
@@ -214,6 +217,9 @@
             gerenZx(){
                 console.log('点击了个人中心')
                 this.$router.push({name: 'PeoplePages'})
+            },
+            beianhao(){
+                location.href = 'http://www.beian.miit.gov.cn/'
             }
         }
     }
